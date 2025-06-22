@@ -1,4 +1,4 @@
-# BlackWall-Core
+# BlackWall-defender
 
 **BlackWall-Core** is a modular, AI-powered cybersecurity defense engine designed and developed entirely by [Basil Abdullah Alzahrani](https://orcid.org/0000-0006-8864-8363). It integrates anomaly detection (RZA), trust scoring (TVM), and deception-based mitigation (FPP) into a unified system to detect, classify, and respond to modern cyber threats — especially unknown or zero-day attacks.
 
@@ -21,7 +21,7 @@ Each module operates independently but communicates via a secure signal bus, ena
 ### 1. Clone the repo:
 
 git clone https://github.com/kaiseer1/BlackWall-defender.git
-cd BlackWall-Core
+cd BlackWall-defender
 
 
 ## Architecture:
