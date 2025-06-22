@@ -19,6 +19,42 @@ Each module operates independently but communicates via a secure signal bus, ena
 ## 🚀 Getting Started
 
 ### 1. Clone the repo:
-```bash
+
 git clone https://github.com/kaiseer1/BlackWall-defender.git
 cd BlackWall-Core
+
+
+## Architecture:
+-------------
+Incoming Data
+     ↓
+  [ RZA ] → δ(t): anomaly score
+     ↓
+  [ TVM ] → T(u, c): trust score
+     ↓
+  [ FPP ] → F(x): threat certainty
+     ↓
+Final Decision:
+- Allow
+- Monitor
+- Block + Deceive
+
+Decision Logic:
+---------------
+If δ(t) > μ + kσ AND T(u,c) < τ AND F(x) > θ:
+    → Block + Deceive
+Else if δ(t) > μ AND T(u,c) ≥ τ:
+    → Monitor
+Else:
+    → Allow
+
+Usage:
+------
+> python BlackWall.py
+
+This will run a simulated attack scenario and display decisions based on AI logic.
+
+Disclaimer:
+-----------
+This is a research-grade prototype, not production code. For educational and demonstration use only.
+"""
