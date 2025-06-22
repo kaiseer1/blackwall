@@ -1,6 +1,6 @@
 # BlackWall-defender
 
-**BlackWall-Core** is a modular, AI-powered cybersecurity defense engine designed and developed entirely by [Basil Abdullah Alzahrani](https://orcid.org/0000-0006-8864-8363). It integrates anomaly detection (RZA), trust scoring (TVM), and deception-based mitigation (FPP) into a unified system to detect, classify, and respond to modern cyber threats — especially unknown or zero-day attacks.
+**BlackWall-defender** is a modular, AI-powered cybersecurity defense engine designed and developed entirely by [Basil Abdullah Alzahrani](https://orcid.org/0000-0006-8864-8363). It integrates anomaly detection (RZA), trust scoring (TVM), and deception-based mitigation (FPP) into a unified system to detect, classify, and respond to modern cyber threats — especially unknown or zero-day attacks.
 
 ---
 
