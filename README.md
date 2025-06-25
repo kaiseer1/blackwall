@@ -180,7 +180,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## ⚠️ Disclaimer
 
-This is a research implementation for educational purposes. Always test thoroughly before using in production environments.
+This is a research implementation for educational purposes. It can change depending on new discoveries or new developments. **❤️**
 
 ## 📞 Contact
 
