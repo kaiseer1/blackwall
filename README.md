@@ -21,7 +21,7 @@ Based on research paper: *"Blackwall: An integrated AI-driven Framework for proa
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/blackwall.git
+git clone https://github.com/kaiseer1/blackwall.git
 cd blackwall
 
 # Install dependencies
