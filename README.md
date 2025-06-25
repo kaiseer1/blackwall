@@ -3,7 +3,7 @@
 An AI-driven cybersecurity framework for proactive defense against modern threats.
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://img.shields.io/badge/license-Apache%202.0-green.svg)
+https://img.shields.io/badge/license-Apache%202.0-green.svg
 ![Version](https://img.shields.io/badge/version-2.0-orange.svg)
 
 ## 🛡️ Overview
