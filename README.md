@@ -36,14 +36,14 @@ pip install -r requirements.txt
 # Run the framework
 python blackwall.py
 ```
-📊 Version Comparison
+## 📊 Version Comparison
 Core Differences: basil.py vs blackwall.py
 Featurebasil.py (v1.0)blackwall.py (v2.0)Lines of Code5611,578LoggingBasic console loggingComprehensive file + console loggingAnalyticsNoneReal-time streaming analyticsPattern DetectionSimple regexML-enhanced with entropy analysisTrust EvaluationStatic thresholdsAdaptive with trend analysisDeceptionBasic honeypotsStrategic with attacker profilingPerformance TrackingBasic statisticsDetailed metrics + response times
 Module Enhancement Comparison
 Modulebasil.py Featuresblackwall.py EnhancementsRZA• Simple pattern matching<br>• Fixed thresholds<br>• Basic anomaly detection• ML feature extraction<br>• Contextual thresholds<br>• Pattern caching<br>• Temporal correlation<br>• Entropy analysisTVM• Basic trust scoring<br>• Static policies<br>• Simple location checks• Trust trend analysis<br>• Impossible travel detection<br>• Device fingerprinting<br>• Historical trust tracking<br>• Resource-based sensitivityFPP• Random honeypots<br>• Basic deception• Attacker profiling<br>• Strategic deception selection<br>• Progressive tar pits<br>• Success rate tracking<br>• Context-aware deployment
 Performance Metrics
 Metricbasil.pyblackwall.pyAverage Response Time~100ms~41msDetection Rate~70%~85%False Positive Rate~10%<5%Deception Success~60%~86%Memory UsageLowModerateCPU UsageLowLow-Moderate
-🔧 Architecture
+## 🔧 Architecture
 Decision Formula
 The framework implements the unified decision formula:
 Y = Block + deceive, if δ(t) > μ + kσ AND T(u,c) < τ AND F(x) > θ
@@ -64,7 +64,8 @@ Input → RZA (Vulnerability Detection)
        FPP (Deception Decision)
          ↓
     Response Action
-📈 Key Features
+
+## 📈 Key Features
 🔍 Enhanced Detection (RZA)
 
 ML Feature Extraction: Entropy, character distribution, pattern density
@@ -93,7 +94,7 @@ Trend Detection: Identifies coordinated attacks
 Burst Detection: Alerts on sudden threat increases
 Pattern Entropy: Measures attack diversity
 
-🛠️ Configuration
+## 🛠️ Configuration
 Adaptive Thresholds
 The framework automatically adjusts thresholds based on:
 ContextAdjustmentReasoningNight Hours (10PM-6AM)-20% thresholdHigher sensitivity during off-hoursWeekends-15% thresholdIncreased vigilance on weekendsHigh Activity+20% thresholdReduce false positives during busy periodsAttack Burst-20% deception thresholdMore aggressive deception during attacks
@@ -120,7 +121,7 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
-📄 License
+## 📄 License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 🙏 Acknowledgments
 
@@ -128,7 +129,9 @@ Research paper: "Blackwall: An integrated AI-driven Framework for proactive Cybe
 Author: Basil Abdullah Alzahrani
 Department of Management Information System, Al-Baha University
 
-⚠️ Disclaimer
-This is a research implementation for educational purposes. Always test thoroughly before using in production environments.
+## ⚠️ Disclaimer
+This is a research implementation for educational purposes Only. It can change anytime depending on new discoveries or changes, thanks *heart*.
 📞 Contact
 For questions or support, please open an issue on GitHub.
+
+<p align="center">Made with ❤️ for cybersecurity</p>
