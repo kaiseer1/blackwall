@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 # Run the framework
 python blackwall.py
-
+```
 📊 Version Comparison
 Core Differences: basil.py vs blackwall.py
 Featurebasil.py (v1.0)blackwall.py (v2.0)Lines of Code5611,578LoggingBasic console loggingComprehensive file + console loggingAnalyticsNoneReal-time streaming analyticsPattern DetectionSimple regexML-enhanced with entropy analysisTrust EvaluationStatic thresholdsAdaptive with trend analysisDeceptionBasic honeypotsStrategic with attacker profilingPerformance TrackingBasic statisticsDetailed metrics + response times
