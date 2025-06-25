@@ -1,60 +1,37 @@
-# BlackWall
+# Blackwall Framework
 
-**BlackWall-** is a modular, AI-powered cybersecurity defense engine designed and developed entirely by [Basil Abdullah Alzahrani](https://orcid.org/0000-0006-8864-8363). It integrates anomaly detection (RZA), trust scoring (TVM), and deception-based mitigation (FPP) into a unified system to detect, classify, and respond to modern cyber threats — especially unknown or zero-day attacks.
+An AI-driven cybersecurity framework for proactive defense against modern threats.
 
----
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-2.0-orange.svg)
 
-## 🧠 Modules Overview
+## 🛡️ Overview
 
-| Module | Purpose |
-|--------|---------|
-| **RZA** (Reverse Zero-Day Algorithm) | Detects unknown or anomalous behaviors using AI/ML-based scoring. |
-| **TVM** (Trust Verification Module) | Calculates context-aware trust scores based on behavior, identity, and conditions. |
-| **FPP** (False Positive Protocol) | Decides whether to deceive, block, or allow based on combined intelligence. |
+Blackwall is an integrated AI-driven framework implementing three core modules:
+- **RZA (Reverse Zero-day Algorithm)**: ML-powered vulnerability detection
+- **TVM (Trust Verification Module)**: Adaptive zero-trust access control  
+- **FPP (False Positive Protocol)**: Strategic deception deployment
 
-Each module operates independently but communicates via a secure signal bus, enabling real-time coordinated defense decisions.
+Based on research by Basil Abdullah Alzahrani.
 
----
+## 🚀 Features
 
-## 🚀 Getting Started
+- **Real-time Streaming Analytics**: Continuous threat monitoring and trend detection
+- **ML-Enhanced Detection**: Entropy analysis, behavioral patterns, and temporal correlation
+- **Zero-Trust Architecture**: Dynamic trust scoring with contextual awareness
+- **Strategic Deception**: Attacker profiling and customized honeypot deployment
+- **Comprehensive Logging**: Detailed audit trails for security analysis
 
-### 1. Clone the repo:
+## 📦 Installation
 
-git clone https://github.com/kaiseer1/BlackWall.git
-cd BlackWall-defender
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/blackwall.git
+cd blackwall
 
+# Install dependencies
+pip install -r requirements.txt
 
-## Architecture:
--------------
-Incoming Data
-     ↓
-  [ RZA ] → δ(t): anomaly score
-     ↓
-  [ TVM ] → T(u, c): trust score
-     ↓
-  [ FPP ] → F(x): threat certainty
-     ↓
-Final Decision:
-- Allow
-- Monitor
-- Block + Deceive
-
-Decision Logic:
----------------
-If δ(t) > μ + kσ AND T(u,c) < τ AND F(x) > θ:
-    → Block + Deceive
-Else if δ(t) > μ AND T(u,c) ≥ τ:
-    → Monitor
-Else:
-    → Allow
-
-Usage:
-------
-> python BlackWall.py
-
-This will run a simulated attack scenario and display decisions based on AI logic.
-
-Disclaimer:
------------
-This is a research-grade prototype, not production code. For educational and demonstration use only.
-"""
+# Run the framework
+python blackwall.py
