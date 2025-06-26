@@ -151,7 +151,7 @@ The framework automatically adjusts thresholds based on:
 ```
 blackwall/
 ├── blackwall.py          # Enhanced framework (v2.0)
-├── basil.py             # Original implementation (v1.0)
+├── blackwall_v1.py       # Original implementation (v1.0)
 ├── requirements.txt     # Dependencies
 ├── LICENSE             # Apache 2.0 License
 ├── README.md           # This file
