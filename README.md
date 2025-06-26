@@ -46,13 +46,30 @@ python blackwall.py
 | **Performance Tracking** | Limited | Full metrics dashboard |
 
 
-### Module Enhancement Comparison
+### 🧩 Module Enhancement Comparison
 
-| Module | basil.py Features | blackwall.py Enhancements |
-|--------|-------------------|---------------------------|
-| **RZA** | • Simple pattern matching<br>• Fixed thresholds<br>• Basic anomaly detection | • ML feature extraction<br>• Contextual thresholds<br>• Pattern caching<br>• Temporal correlation<br>• Entropy analysis |
-| **TVM** | • Basic trust scoring<br>• Static policies<br>• Simple location checks | • Trust trend analysis<br>• Impossible travel detection<br>• Device fingerprinting<br>• Historical trust tracking<br>• Resource-based sensitivity |
-| **FPP** | • Random honeypots<br>• Basic deception | • Attacker profiling<br>• Strategic deception selection<br>• Progressive tar pits<br>• Success rate tracking<br>• Context-aware deployment |
+| Module | `blackwall_v1.py` Features | `blackwall.py` (v2.0) Enhancements |
+|--------|-----------------------------|------------------------------------|
+| **RZA** | • Simple pattern matching  
+• Fixed thresholds  
+• Basic anomaly detection | • ML feature extraction  
+• Contextual thresholds  
+• Pattern caching  
+• Temporal correlation  
+• Entropy analysis |
+| **TVM** | • Basic trust scoring  
+• Static policies  
+• Simple location checks | • Trust trend analysis  
+• Impossible travel detection  
+• Device fingerprinting  
+• Historical trust tracking  
+• Resource-based sensitivity |
+| **FPP** | • Random honeypots  
+• Basic deception | • Attacker profiling  
+• Strategic deception selection  
+• Progressive tar pits  
+• Success rate tracking  
+• Context-aware deployment |
 
 ### 📈 Performance Metrics Comparison
 
