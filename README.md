@@ -33,17 +33,18 @@ python blackwall.py
 
 ## 📊 Version Comparison
 
-### Core Differences: `basil.py` vs `blackwall.py`
+### Core Differences: `blackwall_v1.py` vs `blackwall.py` (v2.0)
 
-| Feature | basil.py (v1.0) | blackwall.py (v2.0) |
-|---------|-----------------|---------------------|
-| **Lines of Code** | 561 | 1,578 |
-| **Logging** | Basic console logging | Comprehensive file + console logging |
-| **Analytics** | None | Real-time streaming analytics |
-| **Pattern Detection** | Simple regex | ML-enhanced with entropy analysis |
-| **Trust Evaluation** | Static thresholds | Adaptive with trend analysis |
-| **Deception** | Basic honeypots | Strategic with attacker profiling |
-| **Performance Tracking** | Basic statistics | Detailed metrics + response times |
+| Feature | blackwall_v1.py | blackwall.py (v2.0) |
+|---------|------------------|---------------------|
+| **Lines of Code** | ~560 | ~1,570+ |
+| **Logging** | Basic stdout | File + console logging |
+| **Analytics** | None | Real-time streaming |
+| **Pattern Detection** | Simple regex | ML + entropy + temporal |
+| **Trust Evaluation** | Static logic | Adaptive + trend-based |
+| **Deception Module** | Honeypot only | Strategy + profiling |
+| **Performance Tracking** | Limited | Full metrics dashboard |
+
 
 ### Module Enhancement Comparison
 
@@ -53,16 +54,17 @@ python blackwall.py
 | **TVM** | • Basic trust scoring<br>• Static policies<br>• Simple location checks | • Trust trend analysis<br>• Impossible travel detection<br>• Device fingerprinting<br>• Historical trust tracking<br>• Resource-based sensitivity |
 | **FPP** | • Random honeypots<br>• Basic deception | • Attacker profiling<br>• Strategic deception selection<br>• Progressive tar pits<br>• Success rate tracking<br>• Context-aware deployment |
 
-### Performance Metrics
+### 📈 Performance Metrics Comparison
 
-| Metric | basil.py | blackwall.py |
-|--------|----------|--------------|
-| **Average Response Time** | ~100ms | ~41ms |
-| **Detection Rate** | ~70% | ~85% |
-| **False Positive Rate** | ~10% | <5% |
-| **Deception Success** | ~60% | ~86% |
-| **Memory Usage** | Low | Moderate |
-| **CPU Usage** | Low | Low-Moderate |
+| Metric                   | `blackwall_v1.py` (Legacy) | `blackwall.py` (v2.0) |
+|--------------------------|-----------------------------|------------------------|
+| Average Response Time    | ~100ms                      | ~41ms                  |
+| Detection Rate           | ~70%                        | ~85%                   |
+| False Positive Rate      | ~10%                        | <5%                    |
+| Deception Success        | ~60%                        | ~86%                   |
+| Memory Usage             | Low                         | Moderate               |
+| CPU Usage                | Low                         | Low–Moderate           |
+
 
 ## 🔧 Architecture
 
