@@ -12,7 +12,7 @@ An AI-driven cybersecurity framework for proactive defense against modern threat
 Blackwall is an integrated AI-driven framework implementing three core modules that work together to provide comprehensive cybersecurity defense:
 
 - **RZA (Reverse Zero-day Algorithm)**: ML-powered vulnerability detection with pattern recognition
-- **TVM (Trust Verification Module)**: Adaptive zero-trust access control with contextual awareness
+- **TVM (Zero-Trust Verification Module)**: Adaptive zero-trust access control with contextual awareness
 - **FPP (False Positive Protocol)**: Strategic deception deployment with attacker profiling
 
 Based on research paper: *"Blackwall: An integrated AI-driven Framework for proactive Cybersecurity Defense"* by Basil Abdullah Alzahrani.
